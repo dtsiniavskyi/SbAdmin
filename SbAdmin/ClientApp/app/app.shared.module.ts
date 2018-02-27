@@ -5,13 +5,14 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './components/app/app.component';
-import { HomeComponent } from './components/home/home.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PanelComponent } from './components/panel/panel.component';
+
 
 @NgModule({
     declarations: [
         AppComponent,
-        HomeComponent,
+        DashboardComponent,
         PanelComponent
     ],
     imports: [
@@ -19,9 +20,9 @@ import { PanelComponent } from './components/panel/panel.component';
         HttpModule,
         FormsModule,
         RouterModule.forRoot([
-            { path: '', redirectTo: 'home', pathMatch: 'full' },
-            { path: 'home', component: HomeComponent },
-            { path: '**', redirectTo: 'home' }
+            { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+            { path: 'dashboard', component: DashboardComponent },
+            { path: '**', redirectTo: 'dashboard' }
         ])
     ]
 })
