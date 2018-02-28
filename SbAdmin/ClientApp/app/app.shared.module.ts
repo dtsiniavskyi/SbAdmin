@@ -7,13 +7,15 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './components/app/app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BadgeComponent } from './components/dashboard/badge/badge.component';
+import { AreaChartComponent } from './components/dashboard/charts/area-chart/area-chart.component';
 
 
 @NgModule({
     declarations: [
         AppComponent,
         DashboardComponent,
-        BadgeComponent
+        BadgeComponent,
+        AreaChartComponent
     ],
     imports: [
         CommonModule,
