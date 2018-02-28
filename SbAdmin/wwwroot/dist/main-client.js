@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b4974c54f4aab38977cb"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "de9f263f10ca46c85ead"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -704,7 +704,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(42)(__webpack_require__.s = 42);
+/******/ 	return hotCreateRequire(46)(__webpack_require__.s = 46);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -739,8 +739,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app',
-            template: __webpack_require__(19),
-            styles: [__webpack_require__(28)]
+            template: __webpack_require__(21),
+            styles: [__webpack_require__(32)]
         })
     ], AppComponent);
     return AppComponent;
@@ -950,14 +950,14 @@ module.exports = Html5Entities;
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_reflect_metadata__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_reflect_metadata__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_reflect_metadata___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_reflect_metadata__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_zone_js__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_zone_js__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_zone_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_zone_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_bootstrap__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser_dynamic__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_platform_browser_dynamic__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_app_browser_module__ = __webpack_require__(9);
 
 
@@ -1000,7 +1000,7 @@ var options = {
   name: ''
 };
 if (true) {
-  var querystring = __webpack_require__(25);
+  var querystring = __webpack_require__(29);
   var overrides = querystring.parse(__resourceQuery.slice(1));
   if (overrides.path) options.path = overrides.path;
   if (overrides.timeout) options.timeout = overrides.timeout;
@@ -1120,11 +1120,11 @@ if (typeof window !== 'undefined') {
 }
 
 function createReporter() {
-  var strip = __webpack_require__(27);
+  var strip = __webpack_require__(31);
 
   var overlay;
   if (typeof document !== 'undefined' && options.overlay) {
-    overlay = __webpack_require__(29);
+    overlay = __webpack_require__(33);
   }
 
   var styles = {
@@ -1177,7 +1177,7 @@ function createReporter() {
   };
 }
 
-var processUpdate = __webpack_require__(30);
+var processUpdate = __webpack_require__(34);
 
 var customHandler;
 var subscribeAllHandler;
@@ -1242,7 +1242,7 @@ if (module) {
   };
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, "?path=__webpack_hmr&dynamicPublicPath=true", __webpack_require__(31)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, "?path=__webpack_hmr&dynamicPublicPath=true", __webpack_require__(35)(module)))
 
 /***/ }),
 /* 6 */
@@ -1452,7 +1452,7 @@ module.exports = function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* unused harmony export getBaseUrl */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_shared_module__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_app_app_component__ = __webpack_require__(2);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1495,20 +1495,24 @@ function getBaseUrl() {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModuleShared; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_component__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_dashboard_dashboard_component__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_panel_panel_component__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_dashboard_badge_badge_component__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_dashboard_dashboard_component__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_dashboard_badge_badge_component__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_dashboard_charts_area_chart_area_chart_component__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_dashboard_charts_bar_chart_bar_chart_component__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_dashboard_charts_donut_chart_donut_chart_component__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -1526,8 +1530,10 @@ var AppModuleShared = (function () {
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_5__components_app_app_component__["a" /* AppComponent */],
                 __WEBPACK_IMPORTED_MODULE_6__components_dashboard_dashboard_component__["a" /* DashboardComponent */],
-                __WEBPACK_IMPORTED_MODULE_7__components_panel_panel_component__["a" /* PanelComponent */],
-                __WEBPACK_IMPORTED_MODULE_8__components_dashboard_badge_badge_component__["a" /* BadgeComponent */]
+                __WEBPACK_IMPORTED_MODULE_7__components_dashboard_badge_badge_component__["a" /* BadgeComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__components_dashboard_charts_area_chart_area_chart_component__["a" /* AreaChartComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__components_dashboard_charts_bar_chart_bar_chart_component__["a" /* BarChartComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__components_dashboard_charts_donut_chart_donut_chart_component__["a" /* DonutChartComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_common__["CommonModule"],
@@ -1592,7 +1598,7 @@ var BadgeComponent = (function () {
     BadgeComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'badge',
-            template: __webpack_require__(20)
+            template: __webpack_require__(22)
         }),
         __metadata("design:paramtypes", [])
     ], BadgeComponent);
@@ -1603,6 +1609,113 @@ var BadgeComponent = (function () {
 
 /***/ }),
 /* 12 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AreaChartComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var AreaChartComponent = (function () {
+    function AreaChartComponent() {
+    }
+    AreaChartComponent.prototype.ngOnInit = function () {
+    };
+    AreaChartComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'area-chart',
+            template: __webpack_require__(23)
+        })
+    ], AreaChartComponent);
+    return AreaChartComponent;
+}());
+
+
+
+/***/ }),
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BarChartComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var BarChartComponent = (function () {
+    function BarChartComponent() {
+    }
+    BarChartComponent.prototype.ngOnInit = function () {
+    };
+    BarChartComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'bar-chart',
+            template: __webpack_require__(24)
+        })
+    ], BarChartComponent);
+    return BarChartComponent;
+}());
+
+
+
+/***/ }),
+/* 14 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DonutChartComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var DonutChartComponent = (function () {
+    function DonutChartComponent() {
+    }
+    DonutChartComponent.prototype.ngOnInit = function () {
+        this.data = [
+            {
+                label: "Download Sales",
+                value: 30
+            }, {
+                label: "In-Store Sales",
+                value: 30
+            }, {
+                label: "Mail-Order Sales",
+                value: 30
+            }
+        ];
+        Morris.Donut({
+            element: 'morris-donut-chart',
+            data: this.data,
+            resize: true
+        });
+    };
+    DonutChartComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'donut-chart',
+            template: __webpack_require__(25)
+        })
+    ], DonutChartComponent);
+    return DonutChartComponent;
+}());
+
+
+
+/***/ }),
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1617,11 +1730,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var DashboardComponent = (function () {
     function DashboardComponent() {
+        this.badges = [];
     }
+    DashboardComponent.prototype.ngOnInit = function () {
+        this.badges.push({ count: 100, icon: 'fa-comments', caption: 'New Comments!', color: 'primary' });
+        this.badges.push({ count: 100, icon: 'fa-tasks', caption: 'New Tasks!', color: 'green' });
+        this.badges.push({ count: 100, icon: 'fa-shopping-cart', caption: 'New Orders!', color: 'yellow' });
+        this.badges.push({ count: 100, icon: 'fa-support', caption: 'Support Tickets!', color: 'red' });
+    };
     DashboardComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard',
-            template: __webpack_require__(21)
+            template: __webpack_require__(26)
         })
     ], DashboardComponent);
     return DashboardComponent;
@@ -1630,38 +1750,10 @@ var DashboardComponent = (function () {
 
 
 /***/ }),
-/* 13 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PanelComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-var PanelComponent = (function () {
-    function PanelComponent() {
-    }
-    PanelComponent = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'panel',
-            template: __webpack_require__(22)
-        })
-    ], PanelComponent);
-    return PanelComponent;
-}());
-
-
-
-/***/ }),
-/* 14 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(15)(undefined);
+exports = module.exports = __webpack_require__(17)(undefined);
 // imports
 
 
@@ -1672,7 +1764,7 @@ exports.push([module.i, "@media (max-width: 767px) {\r\n    /* On small screens,
 
 
 /***/ }),
-/* 15 */
+/* 17 */
 /***/ (function(module, exports) {
 
 /*
@@ -1754,19 +1846,19 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 16 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-  XmlEntities: __webpack_require__(18),
-  Html4Entities: __webpack_require__(17),
+  XmlEntities: __webpack_require__(20),
+  Html4Entities: __webpack_require__(19),
   Html5Entities: __webpack_require__(3),
   AllHtmlEntities: __webpack_require__(3)
 };
 
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, exports) {
 
 var HTML_ALPHA = ['apos', 'nbsp', 'iexcl', 'cent', 'pound', 'curren', 'yen', 'brvbar', 'sect', 'uml', 'copy', 'ordf', 'laquo', 'not', 'shy', 'reg', 'macr', 'deg', 'plusmn', 'sup2', 'sup3', 'acute', 'micro', 'para', 'middot', 'cedil', 'sup1', 'ordm', 'raquo', 'frac14', 'frac12', 'frac34', 'iquest', 'Agrave', 'Aacute', 'Acirc', 'Atilde', 'Auml', 'Aring', 'Aelig', 'Ccedil', 'Egrave', 'Eacute', 'Ecirc', 'Euml', 'Igrave', 'Iacute', 'Icirc', 'Iuml', 'ETH', 'Ntilde', 'Ograve', 'Oacute', 'Ocirc', 'Otilde', 'Ouml', 'times', 'Oslash', 'Ugrave', 'Uacute', 'Ucirc', 'Uuml', 'Yacute', 'THORN', 'szlig', 'agrave', 'aacute', 'acirc', 'atilde', 'auml', 'aring', 'aelig', 'ccedil', 'egrave', 'eacute', 'ecirc', 'euml', 'igrave', 'iacute', 'icirc', 'iuml', 'eth', 'ntilde', 'ograve', 'oacute', 'ocirc', 'otilde', 'ouml', 'divide', 'oslash', 'ugrave', 'uacute', 'ucirc', 'uuml', 'yacute', 'thorn', 'yuml', 'quot', 'amp', 'lt', 'gt', 'OElig', 'oelig', 'Scaron', 'scaron', 'Yuml', 'circ', 'tilde', 'ensp', 'emsp', 'thinsp', 'zwnj', 'zwj', 'lrm', 'rlm', 'ndash', 'mdash', 'lsquo', 'rsquo', 'sbquo', 'ldquo', 'rdquo', 'bdquo', 'dagger', 'Dagger', 'permil', 'lsaquo', 'rsaquo', 'euro', 'fnof', 'Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu', 'Nu', 'Xi', 'Omicron', 'Pi', 'Rho', 'Sigma', 'Tau', 'Upsilon', 'Phi', 'Chi', 'Psi', 'Omega', 'alpha', 'beta', 'gamma', 'delta', 'epsilon', 'zeta', 'eta', 'theta', 'iota', 'kappa', 'lambda', 'mu', 'nu', 'xi', 'omicron', 'pi', 'rho', 'sigmaf', 'sigma', 'tau', 'upsilon', 'phi', 'chi', 'psi', 'omega', 'thetasym', 'upsih', 'piv', 'bull', 'hellip', 'prime', 'Prime', 'oline', 'frasl', 'weierp', 'image', 'real', 'trade', 'alefsym', 'larr', 'uarr', 'rarr', 'darr', 'harr', 'crarr', 'lArr', 'uArr', 'rArr', 'dArr', 'hArr', 'forall', 'part', 'exist', 'empty', 'nabla', 'isin', 'notin', 'ni', 'prod', 'sum', 'minus', 'lowast', 'radic', 'prop', 'infin', 'ang', 'and', 'or', 'cap', 'cup', 'int', 'there4', 'sim', 'cong', 'asymp', 'ne', 'equiv', 'le', 'ge', 'sub', 'sup', 'nsub', 'sube', 'supe', 'oplus', 'otimes', 'perp', 'sdot', 'lceil', 'rceil', 'lfloor', 'rfloor', 'lang', 'rang', 'loz', 'spades', 'clubs', 'hearts', 'diams'];
@@ -1919,7 +2011,7 @@ module.exports = Html4Entities;
 
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, exports) {
 
 var ALPHA_INDEX = {
@@ -2080,31 +2172,43 @@ module.exports = XmlEntities;
 
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class='container-fluid'>\r\n    <div class='row'>\r\n        <div class='col-sm-12 body-content'>\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n    </div>\r\n</div>\r\n";
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"col-lg-3 col-md-6\">\r\n    <div class=\"panel panel-{{color}}\">\r\n        <div class=\"panel-heading\">\r\n            <div class=\"row\">\r\n                <div class=\"col-xs-3\">\r\n                    <i class=\"fa fa-5x {{icon}}\"></i>\r\n                </div>\r\n                <div class=\"col-xs-9 text-right\">\r\n                    <div class=\"huge\">{{count}}</div>\r\n                    <div>{{caption}}</div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <a href=\"#\">\r\n            <div class=\"panel-footer\">\r\n                <span class=\"pull-left\">View Details</span>\r\n                <span class=\"pull-right\"><i class=\"fa fa-arrow-circle-right\"></i></span>\r\n                <div class=\"clearfix\"></div>\r\n            </div>\r\n        </a>\r\n    </div>\r\n</div>";
 
 /***/ }),
-/* 21 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"row\">\r\n    <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Dashboard</h1>\r\n    </div>\r\n    <!-- /.col-lg-12 -->\r\n</div>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-lg-12\">\r\n        <panel></panel>\r\n\r\n        <div class=\"row\">\r\n            <badge [count]=\"100\" icon=\"fa-comments\" caption=\"New Comments!\" color=\"primary\"></badge>\r\n            <badge [count]=\"100\" icon=\"fa-tasks\" caption=\"New Tasks!\" color=\"green\"></badge>\r\n            <badge [count]=\"100\" icon=\"fa-shopping-cart\" caption=\"New Orders!\" color=\"yellow\"></badge>\r\n            <badge [count]=\"100\" icon=\"fa-support\" caption=\"Support Tickets!\" color=\"red\"></badge>\r\n        </div>        \r\n    </div>\r\n</div>";
-
-/***/ }),
-/* 22 */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"row\">\r\n    <div class=\"col-lg-3 col-md-6\">\r\n        <div class=\"panel panel-primary\">\r\n            <div class=\"panel-heading\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-xs-3\">\r\n                        <i class=\"fa fa-comments fa-5x\"></i>\r\n                    </div>\r\n                    <div class=\"col-xs-9 text-right\">\r\n                        <div class=\"huge\">26</div>\r\n                        <div>New Comments!</div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a href=\"#\">\r\n                <div class=\"panel-footer\">\r\n                    <span class=\"pull-left\">View Details</span>\r\n                    <span class=\"pull-right\"><i class=\"fa fa-arrow-circle-right\"></i></span>\r\n                    <div class=\"clearfix\"></div>\r\n                </div>\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-lg-3 col-md-6\">\r\n        <div class=\"panel panel-green\">\r\n            <div class=\"panel-heading\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-xs-3\">\r\n                        <i class=\"fa fa-tasks fa-5x\"></i>\r\n                    </div>\r\n                    <div class=\"col-xs-9 text-right\">\r\n                        <div class=\"huge\">12</div>\r\n                        <div>New Tasks!</div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a href=\"#\">\r\n                <div class=\"panel-footer\">\r\n                    <span class=\"pull-left\">View Details</span>\r\n                    <span class=\"pull-right\"><i class=\"fa fa-arrow-circle-right\"></i></span>\r\n                    <div class=\"clearfix\"></div>\r\n                </div>\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-lg-3 col-md-6\">\r\n        <div class=\"panel panel-yellow\">\r\n            <div class=\"panel-heading\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-xs-3\">\r\n                        <i class=\"fa fa-shopping-cart fa-5x\"></i>\r\n                    </div>\r\n                    <div class=\"col-xs-9 text-right\">\r\n                        <div class=\"huge\">124</div>\r\n                        <div>New Orders!</div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a href=\"#\">\r\n                <div class=\"panel-footer\">\r\n                    <span class=\"pull-left\">View Details</span>\r\n                    <span class=\"pull-right\"><i class=\"fa fa-arrow-circle-right\"></i></span>\r\n                    <div class=\"clearfix\"></div>\r\n                </div>\r\n            </a>\r\n        </div>\r\n    </div>\r\n    <div class=\"col-lg-3 col-md-6\">\r\n        <div class=\"panel panel-red\">\r\n            <div class=\"panel-heading\">\r\n                <div class=\"row\">\r\n                    <div class=\"col-xs-3\">\r\n                        <i class=\"fa fa-support fa-5x\"></i>\r\n                    </div>\r\n                    <div class=\"col-xs-9 text-right\">\r\n                        <div class=\"huge\">13</div>\r\n                        <div>Support Tickets!</div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <a href=\"#\">\r\n                <div class=\"panel-footer\">\r\n                    <span class=\"pull-left\">View Details</span>\r\n                    <span class=\"pull-right\"><i class=\"fa fa-arrow-circle-right\"></i></span>\r\n                    <div class=\"clearfix\"></div>\r\n                </div>\r\n            </a>\r\n        </div>\r\n    </div>\r\n</div>";
-
-/***/ }),
 /* 23 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"panel panel-default\">\r\n    <div class=\"panel-heading\">\r\n        <i class=\"fa fa-bar-chart-o fa-fw\"></i> Area Chart Example\r\n        <div class=\"pull-right\">\r\n            <div class=\"btn-group\">\r\n                <button type=\"button\" class=\"btn btn-default btn-xs dropdown-toggle\" data-toggle=\"dropdown\">\r\n                    Actions\r\n                    <span class=\"caret\"></span>\r\n                </button>\r\n                <ul class=\"dropdown-menu pull-right\" role=\"menu\">\r\n                    <li><a href=\"#\">Action</a>\r\n                    </li>\r\n                    <li><a href=\"#\">Another action</a>\r\n                    </li>\r\n                    <li><a href=\"#\">Something else here</a>\r\n                    </li>\r\n                    <li class=\"divider\"></li>\r\n                    <li><a href=\"#\">Separated link</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <!-- /.panel-heading -->\r\n    <div class=\"panel-body\">\r\n        <div id=\"morris-area-chart\"></div>\r\n    </div>\r\n    <!-- /.panel-body -->\r\n</div>";
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"panel panel-default\">\r\n    <div class=\"panel-heading\">\r\n        <i class=\"fa fa-bar-chart-o fa-fw\"></i> Bar Chart Example\r\n        <div class=\"pull-right\">\r\n            <div class=\"btn-group\">\r\n                <button type=\"button\" class=\"btn btn-default btn-xs dropdown-toggle\" data-toggle=\"dropdown\">\r\n                    Actions\r\n                    <span class=\"caret\"></span>\r\n                </button>\r\n                <ul class=\"dropdown-menu pull-right\" role=\"menu\">\r\n                    <li>\r\n                        <a href=\"#\">Action</a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\">Another action</a>\r\n                    </li>\r\n                    <li>\r\n                        <a href=\"#\">Something else here</a>\r\n                    </li>\r\n                    <li class=\"divider\"></li>\r\n                    <li>\r\n                        <a href=\"#\">Separated link</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <!-- /.panel-heading -->\r\n    <div class=\"panel-body\">\r\n        <div class=\"row\">\r\n            <div class=\"col-lg-4\">\r\n                <div class=\"table-responsive\">\r\n                    <table class=\"table table-bordered table-hover table-striped\">\r\n                        <thead>\r\n                            <tr>\r\n                                <th>#</th>\r\n                                <th>Date</th>\r\n                                <th>Time</th>\r\n                                <th>Amount</th>\r\n                            </tr>\r\n                        </thead>\r\n                        <tbody>\r\n                            <tr>\r\n                                <td>3326</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>3:29 PM</td>\r\n                                <td>$321.33</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>3325</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>3:20 PM</td>\r\n                                <td>$234.34</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>3324</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>3:03 PM</td>\r\n                                <td>$724.17</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>3323</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>3:00 PM</td>\r\n                                <td>$23.71</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>3322</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>2:49 PM</td>\r\n                                <td>$8345.23</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>3321</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>2:23 PM</td>\r\n                                <td>$245.12</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>3320</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>2:15 PM</td>\r\n                                <td>$5663.54</td>\r\n                            </tr>\r\n                            <tr>\r\n                                <td>3319</td>\r\n                                <td>10/21/2013</td>\r\n                                <td>2:13 PM</td>\r\n                                <td>$943.45</td>\r\n                            </tr>\r\n                        </tbody>\r\n                    </table>\r\n                </div>\r\n                <!-- /.table-responsive -->\r\n            </div>\r\n            <!-- /.col-lg-4 (nested) -->\r\n            <div class=\"col-lg-8\">\r\n                <div id=\"morris-bar-chart\">\r\n\r\n                </div>\r\n            </div>\r\n            <!-- /.col-lg-8 (nested) -->\r\n        </div>\r\n        <!-- /.row -->\r\n    </div>\r\n    <!-- /.panel-body -->\r\n</div>";
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"panel panel-default\">\r\n    <div class=\"panel-heading\">\r\n        <i class=\"fa fa-bar-chart-o fa-fw\"></i> Donut Chart Example\r\n    </div>\r\n    <div class=\"panel-body\">\r\n        <div id=\"morris-donut-chart\"></div>\r\n        <a href=\"#\" class=\"btn btn-default btn-block\">View Details</a>\r\n    </div>\r\n    <!-- /.panel-body -->\r\n</div>\r\n<!-- /.panel -->";
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"row\">\r\n    <div class=\"col-lg-12\">\r\n        <h1 class=\"page-header\">Dashboard</h1>\r\n    </div>\r\n    <!-- /.col-lg-12 -->\r\n</div>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-lg-12\">\r\n        <div class=\"row\">\r\n            <badge *ngFor=\"let badge of badges\" [count]=\"badge.count\" [icon]=\"badge.icon\" [caption]=\"badge.caption\" [color]=\"badge.color\"></badge>\r\n        </div>        \r\n    </div>\r\n    \r\n    <div class=\"col-lg-12\">\r\n        <area-chart></area-chart>\r\n    </div>\r\n    \r\n    <div class=\"col-lg-8\">\r\n        <bar-chart></bar-chart>\r\n    </div>\r\n    \r\n    <div class=\"col-lg-4\">\r\n        <donut-chart></donut-chart>\r\n    </div>\r\n</div>";
+
+/***/ }),
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2195,7 +2299,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 24 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2287,18 +2391,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 25 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(23);
-exports.encode = exports.stringify = __webpack_require__(24);
+exports.decode = exports.parse = __webpack_require__(27);
+exports.encode = exports.stringify = __webpack_require__(28);
 
 
 /***/ }),
-/* 26 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process, global) {/*! *****************************************************************************
@@ -3426,10 +3530,10 @@ var Reflect;
             Function("return this;")());
 })(Reflect || (Reflect = {}));
 //# sourceMappingURL=Reflect.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32), __webpack_require__(40)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(36), __webpack_require__(44)))
 
 /***/ }),
-/* 27 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3442,11 +3546,11 @@ module.exports = function (str) {
 
 
 /***/ }),
-/* 28 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-        var result = __webpack_require__(14);
+        var result = __webpack_require__(16);
 
         if (typeof result === "string") {
             module.exports = result;
@@ -3456,7 +3560,7 @@ module.exports = function (str) {
     
 
 /***/ }),
-/* 29 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*eslint-env browser*/
@@ -3500,7 +3604,7 @@ var colors = {
 };
 ansiHTML.setColors(colors);
 
-var Entities = __webpack_require__(16).AllHtmlEntities;
+var Entities = __webpack_require__(18).AllHtmlEntities;
 var entities = new Entities();
 
 exports.showProblems =
@@ -3541,7 +3645,7 @@ function problemType (type) {
 
 
 /***/ }),
-/* 30 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -3679,7 +3783,7 @@ module.exports = function(hash, moduleMap, options) {
 
 
 /***/ }),
-/* 31 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -3707,67 +3811,67 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 32 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(23);
 
 /***/ }),
-/* 33 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(38);
 
 /***/ }),
-/* 34 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(39);
 
 /***/ }),
-/* 35 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(40);
 
 /***/ }),
-/* 36 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(41);
 
 /***/ }),
-/* 37 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(42);
 
 /***/ }),
-/* 38 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(47);
 
 /***/ }),
-/* 39 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(6);
 
 /***/ }),
-/* 40 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(8);
 
 /***/ }),
-/* 41 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(0))(9);
 
 /***/ }),
-/* 42 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(6);
