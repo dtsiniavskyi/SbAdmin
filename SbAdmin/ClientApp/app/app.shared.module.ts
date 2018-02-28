@@ -9,6 +9,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BadgeComponent } from './components/dashboard/badge/badge.component';
 import { AreaChartComponent } from './components/dashboard/charts/area-chart/area-chart.component';
 import { BarChartComponent } from './components/dashboard/charts/bar-chart/bar-chart.component';
+import { DonutChartComponent } from './components/dashboard/charts/donut-chart/donut-chart.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { BarChartComponent } from './components/dashboard/charts/bar-chart/bar-c
         DashboardComponent,
         BadgeComponent,
         AreaChartComponent,
-        BarChartComponent
+        BarChartComponent,
+        DonutChartComponent
     ],
     imports: [
         CommonModule,
