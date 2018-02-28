@@ -8,6 +8,7 @@ import { AppComponent } from './components/app/app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { BadgeComponent } from './components/dashboard/badge/badge.component';
 import { AreaChartComponent } from './components/dashboard/charts/area-chart/area-chart.component';
+import { BarChartComponent } from './components/dashboard/charts/bar-chart/bar-chart.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AreaChartComponent } from './components/dashboard/charts/area-chart/are
         AppComponent,
         DashboardComponent,
         BadgeComponent,
-        AreaChartComponent
+        AreaChartComponent,
+        BarChartComponent
     ],
     imports: [
         CommonModule,
