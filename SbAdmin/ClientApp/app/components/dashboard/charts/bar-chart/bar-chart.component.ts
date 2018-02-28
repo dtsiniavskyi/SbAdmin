@@ -6,6 +6,14 @@ declare var Morris: any;
     templateUrl: './bar-chart.component.html'
 })
 export class BarChartComponent implements OnInit {
+
+    table: {
+      number: number;
+      date: string;
+      time: string;
+      amount: number;
+    }[];
+
     data: {
       y: string;
       a: number;
@@ -52,5 +60,54 @@ export class BarChartComponent implements OnInit {
         hideHover: 'auto',
         resize: true
       });
+
+
+      this.table = [
+        {
+          number: 3326,
+          date: '10/21/2013',
+          time: '3:29 PM',
+          amount: 321.33
+        },
+
+        {
+          number: 3325,
+          date: '10/21/2013',
+          time: '3:29 PM',
+          amount: 321.33
+        },
+
+        {
+          number: 3324,
+          date: '10/21/2013',
+          time: '3:29 PM',
+          amount: 321.33
+        },
+
+        {
+          number: 3323,
+          date: '10/21/2013',
+          time: '3:29 PM',
+          amount: 321.33
+        },
+        {
+          number: 3322,
+          date: '10/21/2013',
+          time: '3:29 PM',
+          amount: 321.33
+        },
+        {
+          number: 3321,
+          date: '10/21/2013',
+          time: '3:29 PM',
+          amount: 321.33
+        },
+        {
+          number: 3320,
+          date: '10/21/2013',
+          time: '3:29 PM',
+          amount: 321.33
+        }
+      ];
     }
 }
