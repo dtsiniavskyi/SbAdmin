@@ -10,10 +10,7 @@
         <panel></panel>
 
         <div class="row">
-            <badge [count]="100" icon="fa-comments" caption="New Comments!" color="primary"></badge>
-            <badge [count]="100" icon="fa-tasks" caption="New Tasks!" color="green"></badge>
-            <badge [count]="100" icon="fa-shopping-cart" caption="New Orders!" color="yellow"></badge>
-            <badge [count]="100" icon="fa-support" caption="Support Tickets!" color="red"></badge>
+            <badge *ngFor="let badge of badges" [count]="badge.count" [icon]="badge.icon" [caption]="badge.caption" [color]="badge.color"></badge>
         </div>        
     </div>
 </div>
