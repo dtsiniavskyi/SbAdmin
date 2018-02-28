@@ -3,11 +3,8 @@
 }
 
 <app asp-prerender-module="ClientApp/dist/main-server">Loading...</app>
+<script src="~/dist/vendor.js" asp-append-version="true"></script>
 
-@*
-    TODO: Possibly remove this file. Investigate if it is required or necessary
-    <script src="~/dist/vendor.js" asp-append-version="true"></script>
-*@
 @section scripts {
-    @*<script src="~/dist/main-client.js" asp-append-version="true"></script>*@
+    <script src="~/dist/main-client.js" asp-append-version="true"></script>
 }

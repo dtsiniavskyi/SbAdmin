@@ -4,14 +4,17 @@ import { Component, Input, OnInit } from '@angular/core';
     selector: 'badge',
     templateUrl: './badge.component.html'
 })
+
 export class BadgeComponent implements OnInit {
-    @Input() count: number;
+    @Input() count: number = 0;
+    @Input() icon: string = 'fa-comments';
+    @Input() caption: string = '';
+    @Input() color: string = '';
 
     constructor() {
-        this.count = 0;
     }
 
     ngOnInit() {
-        console.log(this.count);
+        console.log(this.icon);
     }
 }
