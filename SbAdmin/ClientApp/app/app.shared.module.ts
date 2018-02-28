@@ -6,7 +6,6 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './components/app/app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { PanelComponent } from './components/panel/panel.component';
 import { BadgeComponent } from './components/dashboard/badge/badge.component';
 
 
@@ -14,7 +13,6 @@ import { BadgeComponent } from './components/dashboard/badge/badge.component';
     declarations: [
         AppComponent,
         DashboardComponent,
-        PanelComponent,
         BadgeComponent
     ],
     imports: [
